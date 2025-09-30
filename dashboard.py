@@ -9,7 +9,7 @@ df = pd.read_csv("ps4sales.csv", sep=",")
 print(df.head())
 
 st.write("Ensimmäiset rivit" ,df.head())
-
+ 
 st.write("Koko taulukko", df)
 st.write("Datan kuvailua", df.describe())
 st.write("Datan koko, elementtien lukumäärä", df.size)
